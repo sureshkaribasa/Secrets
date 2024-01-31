@@ -213,3 +213,5 @@ kubectl cordon my-node     - makes nodes unschedulable but existing pods will be
 kubectl drain my-node      - Deletes pods which are on node
 kubectl uncordon my-node   - makes node schedulable now. 
 ```
+Rollouts & Rollbacks?
+
