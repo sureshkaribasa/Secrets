@@ -205,3 +205,11 @@ Imagepullbackoff
 Image pulled but pod is pending
 CrashLoopBackOff
 Out of Memory
+```
+Cordon & uncordon:
+-----------
+```
+kubectl cordon my-node     - makes nodes unschedulable but existing pods will be running
+kubectl drain my-node      - Deletes pods which are on node
+kubectl uncordon my-node   - makes node schedulable now. 
+```
